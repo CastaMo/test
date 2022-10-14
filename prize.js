@@ -4,7 +4,7 @@ function getDefaultPrize(DefaultPrizeCount) {
       label: `奖品${index + 1}`
     }
   })
-}
+};
 
 function checkPrizePoolMatchExpect(PrizePool, expectPrizeResult) {
   if (!expectPrizeResult || expectPrizeResult.length === 0) return true // 防止死循环
